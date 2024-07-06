@@ -28,3 +28,4 @@ d:\Projects\Dotnet\TodoList\Todo\obj\Debug\net8.0\refint\Todo.dll
 d:\Projects\Dotnet\TodoList\Todo\obj\Debug\net8.0\Todo.pdb
 d:\Projects\Dotnet\TodoList\Todo\obj\Debug\net8.0\Todo.genruntimeconfig.cache
 d:\Projects\Dotnet\TodoList\Todo\obj\Debug\net8.0\ref\Todo.dll
+d:\Projects\Dotnet\TodoList\Todo\obj\Debug\net8.0\Todo.sourcelink.json
