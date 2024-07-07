@@ -54,6 +54,19 @@ public class HomeController : Controller
                 TodoList = todoList
             };
     }
+
+    public JsonResult Delete(int id)
+    {
+        using (SqliteConnection con = new SqliteConnection("Data Source=DB.sqlite")){
+            using( var tableCmd = con.CreateCommand()){
+                con.Open();
+                tableCmd.CommandText = $"DELETE FROM todo WHERE Id= '{id}'";
+                tableCmd.ExecuteNonQuery();
+            }
+        }
+        return Json(new{});
+    }
+
     public RedirectResult Insert(TodoItem todo)
     {
         using (SqliteConnection con = new SqliteConnection("Data Source=DB.sqlite")){
@@ -70,5 +83,6 @@ public class HomeController : Controller
         }
         return Redirect("http://localhost:5206");
     }
+
 
 }
