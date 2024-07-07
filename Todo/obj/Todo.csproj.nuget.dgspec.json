@@ -1,25 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "/home/shefat2002/Projects/Dotnet/TodoList/Todo/Todo.csproj": {}
+    "d:\\Projects\\Dotnet\\TodoList\\Todo\\Todo.csproj": {}
   },
   "projects": {
-    "/home/shefat2002/Projects/Dotnet/TodoList/Todo/Todo.csproj": {
+    "d:\\Projects\\Dotnet\\TodoList\\Todo\\Todo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/shefat2002/Projects/Dotnet/TodoList/Todo/Todo.csproj",
+        "projectUniqueName": "d:\\Projects\\Dotnet\\TodoList\\Todo\\Todo.csproj",
         "projectName": "Todo",
-        "projectPath": "/home/shefat2002/Projects/Dotnet/TodoList/Todo/Todo.csproj",
-        "packagesPath": "/home/shefat2002/.nuget/packages/",
-        "outputPath": "/home/shefat2002/Projects/Dotnet/TodoList/Todo/obj/",
+        "projectPath": "d:\\Projects\\Dotnet\\TodoList\\Todo\\Todo.csproj",
+        "packagesPath": "C:\\Users\\Shefat\\.nuget\\packages\\",
+        "outputPath": "d:\\Projects\\Dotnet\\TodoList\\Todo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/shefat2002/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Shefat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -77,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
